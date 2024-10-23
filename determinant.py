@@ -1,5 +1,4 @@
 class Determinant:
-    @staticmethod
     def calculate(matrix):
         # Recursive determinant calculation for square matrices
         if len(matrix) != len(matrix[0]):
